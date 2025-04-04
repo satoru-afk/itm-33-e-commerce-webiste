@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="lo">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ຕິດຕໍ່ພວກເຮົາ - FarmVille</title>
+    <link rel="stylesheet" href="/src/contect-us/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="sun"></div>
+            <h1>ຕິດຕໍ່ພວກເຮົາ</h1>
+            <p>ພວກເຮົາຍິນດີທີ່ຈະໄດ້ຍິນຈາກທ່ານ! ສົ່ງຂໍ້ຄວາມຫາພວກເຮົາຫຼືເດີນທາງມາຢ້ຽມຢາມຮ້ານຂອງພວກເຮົາ.</p>
+        </header>
+        
+        <div class="contact-container">
+            <form class="contact-form">
+                <div class="farm-decoration cloud cloud1"></div>
+                <div class="farm-decoration cloud cloud2"></div>
+                <div class="farm-decoration animal cow">🐄</div>
+                <div class="farm-decoration animal chicken">🐓</div>
+                
+                <div class="form-group">
+                    <label for="name">ຊື່ຂອງທ່ານ</label>
+                    <input type="text" id="name" name="name" placeholder="ຊື່ຂອງທ່ານ" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">ອີເມວ</label>
+                    <input type="email" id="email" name="email" placeholder="ອີເມວຂອງທ່ານ" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="subject">ຫົວຂໍ້</label>
+                    <select id="subject" name="subject">
+                        <option value="">ເລືອກຫົວຂໍ້</option>
+                        <option value="support">ກ່ຽວກັບຮ້ານຂອງພວກເຮົາ</option>
+                        <option value="feedback">ຄຳເຫັນ</option>
+                        <option value="business">ການສອບຖາມທຸລະກິດ</option>
+                        <option value="other">ອື່ນໆ</option>
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label for="message">ຂໍ້ຄວາມ</label>
+                    <textarea id="message" name="message" placeholder="ບອກພວກເຮົາສິ່ງທີ່ທ່ານກຳລັງຄິດ..." required></textarea>
+                </div>
+                
+                <button type="submit" onclick="alert('ສົ່ງຂໍ້ຄວາມສຳເລັດແລ້ວ!')">ສົ່ງຂໍ້ຄວາມ</button>
+            </form>
+            
+            <div class="contact-info">
+                <h2>ຮ້ານຂອງພວກເຮົາ</h2>
+                
+                <div class="info-item">
+                    <div class="info-icon">📍</div>
+                    <div class="info-text">
+                        <h3>ທີ່ຕັ້ງ</h3>
+                        <p>4 ຖະໜົນອານຸວົງ, ໄຊທານີ, ວຽງຈັນ</p>
+                    </div>
+                </div>
+                
+                <div class="info-item">
+                    <div class="info-icon">✉️</div>
+                    <div class="info-text">
+                        <h3>ອີເມວ</h3>
+                        <p>CyberFarm@gmail.com</p>
+                    </div>
+                </div>
+                
+                <div class="info-item">
+                    <div class="info-icon">📞</div>
+                    <div class="info-text">
+                        <h3>ໂທ</h3>
+                        <p>+856 20 77888888</p>
+                    </div>
+                </div>
+                
+                <div class="info-item">
+                    <div class="info-icon">⏰</div>
+                    <div class="info-text">
+                        <h3>ເວລາເຮັດວຽກ</h3>
+                        <p>ຈັນ - ສຸກ: 9:00 - 17:00<br>ເສົາ: 10:00 - 15:00</p>
+                    </div>
+                </div>
+                
+                <div class="info-item">
+                    <div class="info-icon">🌐</div>
+                    <div class="info-text">
+                        <h3>ສື່ສັງຄົມ</h3>
+                        <div class="social-icons">
+                            FB: CyberFarm | IG: @cyberfarm 
+                        </div>
+                    </div>
+                </div>
+                <div class="info-item">
+                    <div class="info-icon"><img src="/public/logo-removebg-preview.png" alt="logo" width="50px"></div>
+                    <div class="info-text">
+                        <h3>ພະນັກງານຂາຍ</h3>
+                        <div class="social-icons">
+                            ທ້າວ ວິໄລສິດ<br/>
+                            ທ້າວ ສັນຕິສຸກ <br/>
+                            ທ້າວ ແສງວິໄລ <br/>
+                            ທ້າວ ລີບອຍ <br/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <footer>
+            <p>© 2023 FarmVille Adventures. ສະຫງວນລິຂະສິດທັງໝົດ. | <a href="#">ນະໂຍບາຍຄວາມເປັນສ່ວນຕົວ</a> | <a href="#">ເງື່ອນໄຂການໃຊ້ງານ</a></p>
+        </footer>
+    </div>
+</body>
+</html>
